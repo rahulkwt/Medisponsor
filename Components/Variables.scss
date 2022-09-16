@@ -1,0 +1,67 @@
+$primary-color: #fff;
+$secondary-color: #000;
+$common-color: #3585BC;
+$button-color:#FFEC00;
+$subtext-color: #44C6B0;
+$Regular: 400;
+$Bold: 700;
+$footer-bg-color:rgba(68, 198, 176, 0.50);
+
+@mixin subtitle($font-weight:$Regular,$color: $common-color,$line-hght: 20px){
+    font-weight: $font-weight;
+    font-size: 16px;
+    letter-spacing: 250;
+    line-height: $line-hght;
+    color: $color;
+    font-family: 'Comfortaa', cursive;
+}
+
+@mixin button($color: $button-color,$hover-color:$color) {
+    border-radius: 32.5px;
+    background-color: $color;
+    text-align: center;
+    height: 55px;
+    width: 213px;
+    font-size: 16px;  
+    letter-spacing: 250;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: $hover-color;
+    }
+}
+
+@mixin headline($font-size: 60px,$line-hgt: 82px,$font-wght: $Light){
+    font-size: $font-size;
+    line-height: $line-hgt;
+    letter-spacing: 0px;
+    color: $primary-color;
+    font-weight: $font-wght;
+}
+
+
+
+@mixin text($font-weight: $Regular, $line-hght: 38px,$color: $primary-color,$font-size:28px){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-hght;
+    color: $color;
+}
+
+@mixin header-button($color: $primary-color) {
+    font-size: 22px;
+    line-height: 26px;
+    color: #185876;
+    background-color: $color;
+    font-weight: $Regular;
+    border: none;
+    width: 246px;
+    height: 66px;
+    border-radius: 32.5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+@media (max-width:1024px){
+    // font-size: 45px;
+}

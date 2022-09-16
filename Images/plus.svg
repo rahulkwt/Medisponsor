@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61" height="62.127" viewBox="0 0 61 62.127">
+  <g id="hmis_icon" data-name="hmis icon" transform="translate(1 0.127)">
+    <path id="Stroke_1709" data-name="Stroke 1709" d="M32.867,11.333h-10.2V1.133A1.133,1.133,0,0,0,21.533,0H12.467a1.133,1.133,0,0,0-1.133,1.133v10.2H1.133A1.133,1.133,0,0,0,0,12.467v9.067a1.133,1.133,0,0,0,1.133,1.133h10.2v10.2A1.133,1.133,0,0,0,12.467,34h9.067a1.133,1.133,0,0,0,1.133-1.133v-10.2h10.2A1.133,1.133,0,0,0,34,21.533V12.467A1.133,1.133,0,0,0,32.867,11.333Z" transform="translate(13 15)" fill="none" stroke="#3585bc" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval" d="M29.5,59A29.5,29.5,0,1,0,0,29.5" transform="translate(59 61) rotate(-180)" fill="none" stroke="#44c6b0" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Oval_Copy_17" data-name="Oval Copy 17" d="M0,10.905A29.443,29.443,0,0,0,22.9,0" transform="translate(47.182 25.998) rotate(-107)" fill="none" stroke="#44c6b0" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

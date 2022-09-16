@@ -1,0 +1,59 @@
+@mixin subtitle($font-weight:$Regular,$color: $common-color,$line-hght: 20px){
+    font-weight: $font-weight;
+    font-size: 16px;
+    letter-spacing: 250;
+    line-height: $line-hght;
+    color: $color;
+    font-family: 'Comfortaa', cursive;
+}
+
+@mixin button($color: $button-color,$hover-color:$color) {
+    border-radius: 32.5px;
+    background-color: $color;
+    text-align: center;
+    height: 55px;
+    width: 213px;
+    font-size: 16px;  
+    letter-spacing: 250;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: $hover-color;
+    }
+}
+
+@mixin headline{
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: -18.18;
+    color: $secondary-color;
+    font-weight: $Regular;
+}
+
+
+
+@mixin text($font-weight: $Regular, $line-hght: 38px,$color: $primary-color,$font-size:28px){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-hght;
+    color: $color;
+}
+
+@mixin header-buttons($color: $common-color) {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -33.33;
+    color: $primary-color;
+    background-color: $color;
+    font-weight: $Bold;
+    border: none;
+    width: 140px;
+    height: 65px;
+    border-radius: 32.5px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+@media (max-width:1024px){
+    // font-size: 45px;
+}
